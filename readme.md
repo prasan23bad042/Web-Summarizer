@@ -91,7 +91,7 @@ curl http://127.0.0.1:8000/health
 curl -X POST http://127.0.0.1:8000/api/summarize \
   -H "Content-Type: application/json" \
   -d '{"text":"FastAPI is a modern web framework."}'
-```
+
 
 EOF
 
@@ -105,3 +105,4 @@ echo "3. Start dev server: ./scripts/dev.sh"
 echo "4. Load Chrome extension from the extension/ folder"
 echo ""
 echo "🎉 Happy coding!"
+```
